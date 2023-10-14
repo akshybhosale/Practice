@@ -1,0 +1,17 @@
+.quiz, .score {
+    text-align: center;
+    color: rgb(255, 127, 127);
+    padding: 10px 10px;
+    font-size: 20px;
+}
+
+.score {
+    color: black;
+    border-radius: 15px;
+  background: #73AD21;
+  padding: 15px 20px;
+  
+  width: 110px;
+  height: 15px;
+  align-items: center;
+}
