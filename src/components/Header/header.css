@@ -1,3 +1,8 @@
+body{
+    display: flex;
+    margin: 0px;
+    background-color: darkgray;
+}
 .header{
     background: rgb(202, 185, 185);
     box-shadow: 0 15px 20px rgb(54, 26, 26);

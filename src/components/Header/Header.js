@@ -1,6 +1,6 @@
-import react from "react";
-import "./header.css";
-import Profile from "./Profile";
+import { Link } from 'react-router-dom';
+import "./Header.css";
+// import Profile from "./Profile";
 // const arr = ['akshay', 'abhay' , 'aditya', 'vikas', 'Bhosale'];
 // const i = arr;
 // const numArr= arr.map(i);
@@ -24,19 +24,19 @@ function Header() {
         </a>
         <ul className="nav">
           <li>
-            <a herf="#">menu</a>
+            <Link to='/' >Home</Link>
           </li>
           <li>
-            <a herf="#">menu</a>
+            <Link to='/main2'>Main2</Link>
           </li>
           <li>
-            <a herf="#">menu</a>
+          <Link to='/main3'>Main3</Link>
           </li>
           <li>
-            <a herf="#">menu</a>
+          <Link to='/main3/aboutus'>About us</Link>
           </li>
           <li>
-            <a herf="#">menu</a>
+          <Link to='/main3/aboutus/contact'>Contact</Link>
           </li>
         </ul>
         <div className="search">

@@ -1,7 +1,7 @@
 import bea from './bea.png';
 import anne from './anne.png';
 import mason from './mason.png';
-import profile from './profile.css';
+import './profile.css';
 function Profile(){
     return(
         <>

@@ -30,3 +30,14 @@ p:hover {
     color: blue;
     transition: cubic-bezier(0.19, 1, 0.22, 1) ease-in-out;
 }
+
+.paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin: 30px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
