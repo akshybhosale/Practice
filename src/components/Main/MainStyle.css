@@ -1,0 +1,32 @@
+h1, h3{
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+h1{
+    font-size: 50px;
+    color: rgb(147, 85, 128);
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-size: 30px;
+    color: rgb(125, 212, 200);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+p{
+    font-size: 16px;
+    text-decoration:none;
+    text-align: center;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+p:hover {
+    color: blue;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) ease-in-out;
+}

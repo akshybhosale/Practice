@@ -1,0 +1,44 @@
+.header{
+    background: rgb(202, 185, 185);
+    box-shadow: 0 15px 20px rgb(54, 26, 26);
+    padding: 10px 80px;
+    align-items: center;
+    align-content: center;
+position: relative;
+display: flex;
+}
+#logo{
+    position: relative;
+    align-items: center;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 2px; */
+    
+}
+
+.nav li{
+list-style: none;
+padding: 0px 25px;
+position: relative;
+}
+
+.nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    color: brown;
+    transition: 0.3s ease-in-out;
+}
+.nav li a:hover{
+   color: blue;
+}
+
+.search{
+    border: 5px;
+    border-radius: 20px;
+    color: blue;
+}
