@@ -1,17 +1,29 @@
-
+import { useState } from "react";
 function Contact() {
-    return(
-        <div>
-  <h2>This is a My Contact</h2>
-<hr />
+  const [userQuery, setUserQuery] = useState('');
 
+const searchQuery= () => {
+  window.open(`https://google.com/search?q=${userQuery}`, 'blank');
+}
 
-      <span>Developed by Akshay Bhosale</span>
-      <div className="socials">
-        <h4>Akshay</h4>
-        <p><span>Akshay</span></p>
-   </div>
-
-</div>
-    );
-}export default Contact;
+  const updateUserQuery = event => {
+    console.log('event', setUserQuery);
+    setUserQuery(event.target.value);
+   
+  }
+  return (
+    <div>
+      <h2>This is a My Contact</h2>
+      <hr />
+      
+        <p className="new-hook">Below are the hook concept</p>
+      
+        <div className="form">
+          <input value={userQuery} onChange={updateUserQuery} />
+          <button onClick={searchQuery}>Search</button>
+        </div>
+        
+    </div>
+  );
+}
+export default Contact;

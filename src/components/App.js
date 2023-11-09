@@ -10,7 +10,7 @@ import { Route } from "react-router-dom";
 import Main2 from "./Main/Main2";
 import Main3 from "./Main/Main3";
 import Aboutus from "./Contact/Aboutus";
-import Contact from "./Contact/contact";
+import Contact from "./Contact/Contact";
 
 
 
@@ -19,11 +19,11 @@ function App() {
     <div>
     <Header />
     <Routes>
-      <Route index element={<Main />} />
+      <Route index='/' element={<Main />} />
       <Route path="/main2" element={<Main2 />} />
       <Route path="/main3" element={<Main3 />} />
-      <Route path="aboutus" element={<Aboutus />} />
-      <Route path="contact" element={<Contact />} />
+      <Route path="/main3/aboutus" element={<Aboutus />} />
+      <Route path="/main3/aboutus/contact" element={<Contact />} />
 
 
     </Routes>

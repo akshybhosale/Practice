@@ -12,10 +12,10 @@ body{
 position: relative;
 display: flex;
 }
-#logo{
+/* #logo{
     position: relative;
     align-items: center;
-}
+} */
 .nav {
     display: flex;
     align-items: center;

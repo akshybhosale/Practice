@@ -1,0 +1,16 @@
+.about{
+  margin: 40px;
+}
+h2, h3 ,h4{
+align-items: center;
+text-align: center;
+font-size: 50px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#para {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-variant: small-caps;
+}

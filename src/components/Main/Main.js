@@ -4,10 +4,10 @@ function Main() {
     <>
       <section>
         <h1>This is main Homepage section</h1>
-        <h3><marquee>de Finibus Bonorum et Malorum", written by Cicero
-          in 45 BC.</marquee>
-          
-        </h3>
+        {/* <h3><marquee>de Finibus Bonorum et Malorum", written by Cicero
+          in 45 BC.</marquee> 
+         </h3> */}
+         
         <p className="paragraph">
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
